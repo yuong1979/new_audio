@@ -23,6 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('api/', include('base.api.urls')),
 
+    path('', include('task1.urls')),
+
     # reviews/ have to be included on top if not it will not be captured
     path('reviews/', ReviewEmailView.as_view(), name="reviews"),
 
