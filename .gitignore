@@ -2,8 +2,6 @@
 venv/
 .env
 private.txt
-*.mp3
-transcription_process.py
 
 main/
 templates/
