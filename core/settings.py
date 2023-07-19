@@ -33,7 +33,8 @@ DEBUG = False
 
 if not DEBUG:
     #converting string to list    
-    ALLOWED_HOSTS = ast.literal_eval(os.environ.get('ALLOWED_HOSTS'))
+    #ALLOWED_HOSTS = ast.literal_eval(os.environ.get('ALLOWED_HOSTS'))
+    ALLOWED_HOSTS = ['*']
 
 else:
     ALLOWED_HOSTS = ['*']
