@@ -41,6 +41,7 @@ On URL: http://127.0.0.1:8000/reviews - test send of email
 
 1. `git clone xxx`
 2. `cd new_audio`
-3. `docker build -t django_image:latest .`
-4. `docker run -p 8000:8000 django_image:latest`
+3. `chmod +x entrypoint.sh`
+4. `docker build -t django_image:latest .`
+5. `docker run -p 8000:8000 django_image:latest`
 
